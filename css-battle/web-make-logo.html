@@ -1,0 +1,32 @@
+<p><div>
+<style>
+  body {
+    margin: 0;
+    background: #F2F2B6;
+    overflow: hidden;
+  }
+  div,p {
+    width: 0;
+    height:0;
+    border-width: 130px 75px;
+    border-style:solid;
+    border-color: #FD4602 transparent transparent;
+    margin: 85px 0 0 80px;
+  }
+  div::before,p::before {
+    content: '';
+    display: inline-block;
+    border-width: 130px 75px;
+    border-style:solid;
+    border-color: #FF6D00 transparent transparent;
+    transform: translate(-95px,-130px);
+  }
+  div {
+    transform: translate(110px,-475px) scale(-1);
+    border-color: #FF6D00 transparent transparent;
+  }
+  div::before {
+    transform: translate(-55px,-130px);
+    border-color: #FD4602 transparent transparent;;
+  }
+</style>
