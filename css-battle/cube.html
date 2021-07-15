@@ -1,0 +1,33 @@
+<style>
+  * {
+    margin: 0;
+    box-sizing: border-box;
+  }
+  html {
+    background: #0B2429;
+  }
+  body {
+    width: 100;
+    height: 100;
+    background: #F3AC3C;
+    transform: rotate(45deg);
+    margin: 135 0 0 150;
+  }
+  body:before {
+    content: '';
+    display: block;
+    width: 70;
+    height:70;
+    background: #998235;
+    transform: rotate(-45deg) translate(-35px,-48px) skew(0deg,-45deg);
+    
+  }
+  body:after {
+    content: '';
+    display: block;
+    width: 70;
+    height:70;
+    background: #1A4341;
+    transform: rotate(-45deg) translate(85px,-99px) skew(0deg,45deg);
+  }
+</style>
