@@ -8,7 +8,10 @@
 	<style type="text/css">
 		.grid {
 			grid-template-columns: repeat(auto-fit, 432px);
-			justify-content: space-between;
+			grid-gap: 50px;
+		}
+		.child {
+			background: #fff;
 		}
 		.child iframe{
 			height: 300px;
@@ -16,10 +19,14 @@
 		}
 	</style>
 </head>
-<body>
+<body class="bg-blue-50">
 	<div class="grid m-4">
 		<div class="child rounded-md shadow">
 			<iframe src="css-battle/missing-slice.html" class="m-4"></iframe>
+			<h1 class="text-3xl text-center text-purple-600 pb-4">Missing Slice</h1>
+		</div>
+		<div class="child rounded-md shadow">
+			<iframe src="css-battle/leafy-trail.html" class="m-4"></iframe>
 			<h1 class="text-3xl text-center text-purple-600 pb-4">Missing Slice</h1>
 		</div>
 	</div>
